@@ -1,0 +1,112 @@
+/* Style for H2OK Coquette Aesthetic */
+:root {
+  --pink-light: #ffeef8;
+  --pink: #ffb6c1;
+  --pink-dark: #ff8da1;
+  --white: #ffffff;
+  --text-color: #333333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--pink-light);
+  color: var(--text-color);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: var(--pink-dark);
+  margin-top: 40px;
+  font-size: 2.5em;
+}
+
+.button-container {
+  margin: 50px 0;
+}
+
+.role-button {
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+  border-radius: 20px;
+  padding: 12px 24px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.role-button:hover {
+  background-color: var(--pink-dark);
+}
+
+.form-container {
+  background-color: var(--white);
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 2px solid var(--pink);
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--pink-dark);
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--pink-dark);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: var(--pink-light);
+}
+
+img.thumbnail {
+  max-width: 100px;
+  border-radius: 8px;
+}
